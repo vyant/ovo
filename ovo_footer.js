@@ -4,7 +4,7 @@ $(document).ready(function()
     {
         e.preventDefault();
         var url = $(this).data('url'),
-        target = $(this).data('url');
+        target = $(this).data('target');
 
         window.open(url, target);
     });
